@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.focuslabs.downloader.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+    
+    <EditText
+        android:id="@+id/edittexturl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_text_url"
+        android:inputType="text"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/edittextport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_text_port"
+        android:inputType="text"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/edittextfilename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_text_filename"
+        android:inputType="text"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/buttonDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/button_download"/>
+
+
+</LinearLayout>

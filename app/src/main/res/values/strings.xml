@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Downloader</string>
+    <string name="edit_text_url">Enter URL</string>
+    <string name="edit_text_port">Enter Port</string>
+    <string name="edit_text_filename">Enter Filename</string>
+    <string name="button_download">Download</string>
+</resources>
